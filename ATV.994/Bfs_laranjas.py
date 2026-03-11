@@ -30,7 +30,7 @@ from typing import List
 
 
 class Solution:
-    def oranges_rotting(self, grid: List[List[int]]) -> int:
+    def orangesRotting(self, grid: List[List[int]]) -> int:
         rows = len(grid)
         cols = len(grid[0])
 
@@ -102,3 +102,4 @@ if __name__ == "__main__":
     result = solver.oranges_rotting(grid)
 
     print("Passos necessários:", result)
+
